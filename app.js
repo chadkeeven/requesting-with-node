@@ -1,6 +1,6 @@
 const movie = require("./movie");
-var threeFavoriteMovies = [];
+var threeFavoriteMovies = ["Alien", "Logan", "Star Wars"];
 threeFavoriteMovies.forEach(function(film){
-  // your code here
-  console.log(get("olah"));
+  movie(film);
+  
 });
